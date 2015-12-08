@@ -1,0 +1,30 @@
+{
+  "name": "firehose-stream",
+  "version": "1.0.0",
+  "description": "example of displaying github firehose on page",
+  "main": "static-server.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/firehose-stream.git"
+  },
+  "keywords": [
+    "firehose"
+  ],
+  "author": "Andrew & Friends",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonic/firehose-stream/issues"
+  },
+  "homepage": "https://github.com/nelsonic/firehose-stream#readme",
+  "dependencies": {
+    "hapi": "^11.1.2",
+    "inert": "^3.2.0",
+    "nodemon": "^1.8.1"
+  }
+}
