@@ -340,26 +340,6 @@
     }
   },
   {
-    "id": 26905,
-    "title": "Fix: Disable xdebug when it is not needed",
-    "issue_url": "https://github.com/refinery29/league-lazy-event/pull/19",
-    "body": "This PR\r\n\r\n* [x] disables xdebug when we don't need it\r\n\r\n:information_desk_person: We only need it for collecting coverage, and that only happens on one build, after merging into `master`.",
-    "state": "open",
-    "merged": false,
-    "created_at": "2015-12-08T12:22:37.000Z",
-    "repo_name": "refinery29/league-lazy-event",
-    "user_id": 6031,
-    "comments_count": 0,
-    "language": null,
-    "user": {
-      "uid": "605483",
-      "nickname": "localheinz",
-      "name": "Andreas Möller",
-      "blog": "http://localheinz.com",
-      "location": "Berlin, Germany"
-    }
-  },
-  {
     "id": 26906,
     "title": "Fix: Add missing CONTRIBUTING.md",
     "issue_url": "https://github.com/refinery29/league-lazy-event/pull/18",
@@ -387,26 +367,6 @@
     "state": "open",
     "merged": false,
     "created_at": "2015-12-08T12:59:46.000Z",
-    "repo_name": "Homebrew/homebrew",
-    "user_id": 1157,
-    "comments_count": 0,
-    "language": null,
-    "user": {
-      "uid": "1334295",
-      "nickname": "bfontaine",
-      "name": null,
-      "blog": null,
-      "location": null
-    }
-  },
-  {
-    "id": 26908,
-    "title": "audit: flag '--with{,out}-check' options",
-    "issue_url": "https://github.com/Homebrew/homebrew/pull/46792",
-    "body": "I didn’t check for `--with-tests` because [`mariadb.rb`](https://github.com/Homebrew/homebrew/blob/f27da993b90856c7d8dceea3953e03c16be1431f/Library/Formula/mariadb.rb#L14) uses it for a different purpose than running compile-time tests.",
-    "state": "open",
-    "merged": false,
-    "created_at": "2015-12-08T12:27:23.000Z",
     "repo_name": "Homebrew/homebrew",
     "user_id": 1157,
     "comments_count": 0,
@@ -474,6 +434,46 @@
     "user": {
       "uid": "57446",
       "nickname": "zenangst",
+      "name": null,
+      "blog": null,
+      "location": null
+    }
+  },
+  {
+    "id": 27015,
+    "title": "fixed start script. #42",
+    "issue_url": "https://github.com/jgne/bubbles/pull/53",
+    "body": "",
+    "state": "open",
+    "merged": false,
+    "created_at": "2015-12-08T16:26:28.000Z",
+    "repo_name": "jgne/bubbles",
+    "user_id": 9886,
+    "comments_count": 0,
+    "language": null,
+    "user": {
+      "uid": "12845233",
+      "nickname": "des-des",
+      "name": null,
+      "blog": null,
+      "location": null
+    }
+  },
+  {
+    "id": 27011,
+    "title": "[WIP] Feature: Allow users to comment on files",
+    "issue_url": "https://github.com/CenterForOpenScience/osf.io/pull/4704",
+    "body": "",
+    "state": "open",
+    "merged": false,
+    "created_at": "2015-12-08T16:19:24.000Z",
+    "repo_name": "CenterForOpenScience/osf.io",
+    "user_id": 9804,
+    "comments_count": 0,
+    "language": null,
+    "user": {
+      "uid": "6414394",
+      "nickname": "samanehsan",
       "name": null,
       "blog": null,
       "location": null
