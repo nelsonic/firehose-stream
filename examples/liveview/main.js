@@ -1,4 +1,4 @@
-var evtSource = new EventSource('http://tf-firehose.herokuapp.com/events');
+var evtSource = new EventSource('https://tf-firehose.herokuapp.com/events');
 
 var eventList = document.getElementById('events');
 
@@ -23,7 +23,7 @@ function render(pr) {
   nickname += '@' + pr.user.nickname +'</a></strong>';
   var pr_link = '<strong> <a href="' + pr.issue_url + '">' + pr.title + '</a> </strong>';
   var pr_repo = '<a href="' + pr.issue_url + '">' + pr.repo_name + '</a></div>';
-  var html = img + nickname +' submitted Pull Request: ' + pr_link +'<br /> on ' + pr_repo;
+  var html = img + nickname +' submitted Pull Request: ' + pr_link +'&nbsp; on ' + pr_repo;
   // html += ' <em style="color:grey">' + moment(pr.created_at).fromNow() +'</em>';
   newElement.innerHTML = html;
   eventList.insertBefore(newElement, eventList.firstChild); // prepend
